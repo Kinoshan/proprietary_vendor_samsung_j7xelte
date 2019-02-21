@@ -81,7 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm43438_V0068.0285.hcd:system/vendor/firmware/bcm43438_V0068.0285.hcd \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm43438_V0068.0290.hcd:system/vendor/firmware/bcm43438_V0068.0290.hcd \
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/bcm4343A0_V0078.0278.hcd:system/vendor/firmware/bcm4343A0_V0078.0278.hcd \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/j7xelte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
@@ -115,3 +116,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:system/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so
+
+## APTX
+PRODUCT_COPY_FILES += \
+    vendor/samsung/j7xelte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/samsung/j7xelte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so
