@@ -32,14 +32,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+    vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff00000000000000000000002f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000002f.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000030.tlbin:system/app/mcRegistry/ffffffff000000000000000000000030.tlbin \
+    vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000038.tlbin:system/app/mcRegistry/ffffffff000000000000000000000038.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000045.tlbin:system/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
+    vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffff000000000000000000000073.tlbin:system/app/mcRegistry/ffffffff000000000000000000000073.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-    vendor/samsung/j7xelte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+    vendor/samsung/j7xelte/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
+    vendor/samsung/j7xelte/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/j7xelte/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/j7xelte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/j7xelte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
     vendor/samsung/j7xelte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
@@ -98,6 +103,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/j7xelte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+    vendor/samsung/j7xelte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
 ## Oreo RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
