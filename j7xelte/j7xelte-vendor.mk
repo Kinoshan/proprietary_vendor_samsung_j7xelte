@@ -102,9 +102,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/j7xelte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/j7xelte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/j7xelte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-    vendor/samsung/j7xelte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    vendor/samsung/j7xelte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so
+
 ## Oreo RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
