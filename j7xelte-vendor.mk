@@ -129,3 +129,21 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/samsung/j7xelte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so
+
+## BSP
+    vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+    vendor/samsung/j7xelte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/j7xelte/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+    vendor/samsung/j7xelte/proprietary/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
+    vendor/samsung/j7xelte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/j7xelte/proprietary/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
+    vendor/samsung/j7xelte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/j7xelte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/j7xelte/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
+    vendor/samsung/j7xelte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    vendor/samsung/j7xelte/proprietary/lib/libfimg.so:system/lib/libfimg.so \
+    vendor/samsung/j7xelte/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
+    vendor/samsung/j7xelte/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
+    vendor/samsung/j7xelte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    vendor/samsung/j7xelte/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
+    vendor/samsung/j7xelte/proprietary/lib/libmpp.so:system/lib/libmpp.so
