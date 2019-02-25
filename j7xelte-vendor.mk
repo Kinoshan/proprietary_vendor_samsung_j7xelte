@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
 
 ## BSP
 PRODUCT_COPY_FILES += \
+    vendor/samsung/j7xelte/proprietary/lib/hw/gatekeeper.exynos7870.so:system/lib/hw/gatekeeper.exynos7870.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
